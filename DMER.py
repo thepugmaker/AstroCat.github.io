@@ -10,7 +10,7 @@ import aiohttp
 
 bot = commands.Bot(command_prefix= ";", intents=discord.Intents.all())
 
-token = "MTIyODk2MDgwNDgxNzA3NjI2NQ.G4o6Mm.pR-Q4gydYEsvtaEyRsMIgGm5qG6Wwl7a4UhbEM"
+token = ""
 
 @bot.event
 async def on_ready():
